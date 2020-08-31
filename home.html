@@ -11,23 +11,19 @@
     />
   </head>
   <body>
-    <h1>Hello! I'm Doodreamcoder, Nice to meet you!</h1>
-
-    <a href="https://www.naver.com/" target="_blank">Go to naver.com</a>
-    <map name="primary">
-      <area
-        shape="circle"
-        coords="75,75,75"
-        href="https://www.naver.com"
-        target="_blank"
-      />
-      <area
-        shape="circle"
-        coords="275,75,75"
-        href="https://google.com"
-        target="_blank"
-      />
-    </map>
-    <img usemap="#primary" src="img/고래2-removebg.png" alt="350 x 150 pic" />
+    <form>
+      <input type="file" accept="image/*" />
+      <label for="First name">First name</label>
+      <input required type="text" id="First name" minlength="2" />
+      <label for="Last name">Last name</label>
+      <input required type="text" id="Last name" minlength="2" />
+      <label for="Username">Username</label>
+      <input required type="text" id="Username" minlength="2" />
+      <label for="Password">Password</label>
+      <input type="password" disabled id="Password" />
+      <input type="submit" value="Create account" />
+    </form>
   </body>
 </html>
+
+<tagname attributes="attributes">어떠한 내용</tagname>
