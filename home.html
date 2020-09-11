@@ -14,21 +14,29 @@
         height: 100vh;
         display: flex;
         margin: 30px;
+        align-items: center;
         justify-content: space-around;
-        align-items: stretch;
+        flex-wrap: wrap-reverse;
       }
       div {
-        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vh;
+        color: white;
+        border-radius: 10%;
+        height: 20vh;
+        width: 20vh;
         background: skyblue;
+      }
+      #f1 {
+        background: orange;
       }
     </style>
   </head>
   <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>1</div>
+    <div id="f1">2</div>
+    <div>3</div>
   </body>
 </html>
