@@ -15,18 +15,23 @@
         margin: 30px;
       }
       div {
-        display: inline;
+        height: 300px;
+        width: 300px;
+        position: relative;
         background: skyblue;
       }
       #among {
-        left: 10px;
-        position: fixed;
-        background: orange;
+        background: teal;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        right: 10px;
       }
     </style>
   </head>
   <body>
-    <div>layer1</div>
-    <div id="among">layer2</div>
+    <div>
+      <div id="among"></div>
+    </div>
   </body>
 </html>
