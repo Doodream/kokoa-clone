@@ -14,33 +14,18 @@
         height: 1000vh;
         margin: 30px;
       }
-      div {
-        height: 50px;
-        width: 50px;
-        position: relative;
-        background: skyblue;
+      input:required {
+        border: 1px solid rgb(196, 196, 109);
       }
-      div:last-child {
-        background: teal;
-      }
-      span {
-        background: green;
-      }
-      span:nth-child(3n) {
-        background: red;
+      input:optional {
+        border: 1px solid teal;
       }
     </style>
   </head>
   <body>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
-    <span>gello</span>
+    <div>
+      <input type="text" placeholder="username" />
+      <input type="password" required placeholder="password" />
+    </div>
   </body>
 </html>
