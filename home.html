@@ -14,18 +14,29 @@
         height: 1000vh;
         margin: 30px;
       }
-      input:required {
-        border: 1px solid rgb(196, 196, 109);
+      button {
+        padding: 200px;
+        border-radius: 5px;
       }
-      input:optional {
-        border: 1px solid teal;
+      button:active {
+        background-color: teal;
+      }
+      form {
+        border: 1px solid red;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      form:hover input:focus {
+        background-color: royalblue;
       }
     </style>
   </head>
   <body>
-    <div>
-      <input type="text" placeholder="username" />
-      <input type="password" required placeholder="password" />
-    </div>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <input tyep="text" />
+    </form>
   </body>
 </html>
