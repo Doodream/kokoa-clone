@@ -10,22 +10,36 @@
       content="https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png"
     />
     <style>
+      :root {
+        --main-color: rgba(64, 144, 248, 0.4);
+        --main-border: 1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 30px;
       }
       input::placeholder {
-        color: salmon;
+        color: var(--main-color);
+      }
+      p {
+        color: var(--main-color);
+        border: var(--main-border);
       }
       p::first-letter {
         font-style: oblique;
         font-size: 20px;
-        color: slateblue;
+        color: var(--main-color);
+      }
+      div {
+        height: 300px;
+        width: 300px;
+        background: var(--main-color);
       }
     </style>
   </head>
   <body>
     <form>
+      <div></div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
         delectus? Consectetur quia eaque assumenda similique earum ipsa
