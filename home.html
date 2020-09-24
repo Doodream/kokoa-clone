@@ -2,14 +2,20 @@
 <html lang="kr">
   <head>
     <style>
+      @keyframes swimmingWhale {
+        from {
+          transform: rotate(30deg);
+        }
+        to {
+          transform: rotate(80deg) translateY(-800px);
+        }
+      }
       img {
         border: 10px solid slateblue;
         border-radius: 50%;
-        transition: all 3s ease-in-out;
+        animation: swimmingWhale 5s infinite;
       }
-      img:hover {
-        transform: rotateX(90deg) rotateY(180deg) scale(0.5) translate(200px);
-      }
+
       span {
         font-size: 50px;
       }
