@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to doodream Talk</title>
@@ -23,6 +24,41 @@
         <!-- charging Icon-->
       </div>
     </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Account,<br />log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input
+        class="login-form__input"
+        required
+        type="email"
+        placeholder="Email"
+      />
+      <input
+        class="login-form__input"
+        required
+        type="password"
+        placeholder="Password"
+        minlength="10"
+      />
+      <input
+        class="login-form__box login-form__loginbox"
+        type="submit"
+        value="Log In"
+      />
+      <button class="login-form__box">Sign Up</button>
+      <a
+        href="https://accounts.kakao.com/weblogin/find_account_guide?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"
+        target="_blank"
+        >Find Kakao Account or Password
+      </a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
