@@ -4,59 +4,36 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to doodream Talk</title>
+    <title>Welcome to KakaoTalk</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span> No Service </span>
+        <span>No Service</span>
         <i class="fas fa-wifi"></i>
-        <!-- To do: WIFI Icon-->
       </div>
       <div class="status-bar__column">
         <span>17:17</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
-        <i class="fas fa-battery-full"></i>
-        <!-- battery Icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <span>11%</span>
         <i class="fas fa-bolt"></i>
-        <!-- charging Icon-->
       </div>
     </div>
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-      <p class="welcome-header__text">
-        If you have a Kakao Account,<br />log in with your email or phone
-        number.
-      </p>
+      <span class="welcome-header__text"
+        >if you have a kakao Account,<br />log in with your email or phone
+        number</span
+      >
     </header>
 
     <form class="login-form">
-      <input
-        class="login-form__input"
-        required
-        type="email"
-        placeholder="Email"
-      />
-      <input
-        class="login-form__input"
-        required
-        type="password"
-        placeholder="Password"
-        minlength="10"
-      />
-      <input
-        class="login-form__box login-form__loginbox"
-        type="submit"
-        value="Log In"
-      />
-      <button class="login-form__box">Sign Up</button>
-      <a
-        href="https://accounts.kakao.com/weblogin/find_account_guide?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"
-        target="_blank"
-        >Find Kakao Account or Password
-      </a>
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="button" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
     </form>
 
     <script
