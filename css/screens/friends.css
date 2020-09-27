@@ -1,0 +1,22 @@
+.friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9fa;
+  height: 40px;
+  color: #2f363e;
+  font-weight: 600;
+}
+
+.friends :nth-child(2n + 1) {
+  color: #d5d5d5;
+}
+
+.fa-info-circle {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.fa-chevron-right {
+  font-size: 10px;
+  margin-left: 12px;
+}
