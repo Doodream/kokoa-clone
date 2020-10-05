@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,65 +23,28 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">Chats</h1>
       <div class="screen-header_icons">
         <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="far fa-comment-dots fa-2x"></i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
         <span><i class="fas fa-cog fa-2x"></i></span>
       </div>
     </header>
 
-    <div class="friends">
-      <span id="friends-i"><i class="fas fa-info-circle"></i> </span>
-      <span>Friend's Names Display</span>
-      <span id="friends-chevron_right"
-        ><i class="fas fa-chevron-right"></i
-      ></span>
-    </div>
-
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            class="user-component__profile_img user-component__profile_img--xl"
-            src="img/고래2.png"
-          />
+          <img class="user-component__profile_img" src="img/고래2.png" />
           <div class="user-component__text">
             <h4 class="user-component__text-name">Doodream</h4>
+            <h6 class="user-component__text-preview">
+              Please check My Kakao Account Info
+            </h6>
           </div>
         </div>
 
         <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__chanel">
-        <div class="friends-screen__chanel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__profile_img"
-              src="img/kakaoTalk_ch.png"
-            />
-            <div class="user-component__text">
-              <h4
-                class="user-component__text-name user-component__text-name-not-bold"
-              >
-                Channel
-              </h4>
-            </div>
-          </div>
-
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
 
@@ -89,12 +52,12 @@
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html">
-            <i class="fas fa-user-friends fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">
           <a class="nav_link" href="chat.html">
-            <i class="far fa-comments fa-2x"></i>
+            <i class="fas fa-comments fa-2x"></i>
             <span class="nav_notification">1</span>
           </a>
         </li>

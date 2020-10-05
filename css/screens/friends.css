@@ -6,17 +6,37 @@
   height: 40px;
   color: #2f363e;
   font-weight: 600;
+  margin-bottom: var(--horizontal-space);
+  margin-top: -20px;
 }
 
 .friends :nth-child(2n + 1) {
   color: #d5d5d5;
 }
 
-.fa-info-circle {
+#friends-i {
   font-size: 15px;
   margin-right: 5px;
 }
-.fa-chevron-right {
+#friends-chevron_right {
   font-size: 10px;
   margin-left: 12px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__chanel {
+  margin-top: var(--horizontal-space);
+  border-top: 1px solid var(--shy-gray);
+  padding-top: 15px;
+}
+
+.friends-screen__chanel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
 }

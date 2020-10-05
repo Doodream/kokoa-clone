@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   padding: 0.5% 0.3%;
+  font-weight: 200;
 }
 
 .status-bar__column {
