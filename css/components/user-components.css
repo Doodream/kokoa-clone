@@ -47,3 +47,7 @@
 .user-component__text-name-not-bold {
   font-weight: 400;
 }
+
+.user-component__time {
+  margin-bottom: 7px;
+}
