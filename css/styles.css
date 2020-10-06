@@ -6,6 +6,7 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -13,6 +14,7 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-header.css";
 
 body {
   font-family: "Open Sans", sans-serif;
