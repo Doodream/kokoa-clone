@@ -44,10 +44,19 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+.user-component__text-preview i {
+  color: tomato;
+}
+
 .user-component__text-name-not-bold {
   font-weight: 400;
 }
 
 .user-component__time {
   margin-bottom: 7px;
+}
+
+.user-component__message {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.9);
 }
