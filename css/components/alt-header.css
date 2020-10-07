@@ -3,23 +3,33 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  margin-top: 10px;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.alt-header__title {
-  font-weight: 600;
-  font-size: 30px;
-  margin: 0px;
+.alt-header__column {
+  display: flex;
+  width: 33%;
 }
 
 .alt-header__column:nth-child(1) {
-  margin-right: auto;
+  justify-content: flex-start;
 }
 
 .alt-header__column:nth-child(3) {
-  margin-left: auto;
+  font-size: 13px;
+  justify-content: flex-end;
 }
 
-.alt-header__column a {
-  margin-right: 10px;
+.alt-header__column a:nth-child(1) {
+  margin-right: 20px;
+}
+.alt-header__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
 }
