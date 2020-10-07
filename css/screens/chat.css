@@ -36,9 +36,82 @@
   align-items: center;
   border-radius: 20px;
   margin: 0px auto;
+  margin-bottom: 25px;
 }
 
 .chat__timestamp span {
   text-align: center;
   font-size: 15px;
+}
+
+.message-row {
+  display: flex;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 8px;
+  margin-left: -10px;
+  margin-bottom: 40px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  font-size: 19px;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message__time {
+  display: block;
+}
+
+.message__author,
+.message__time {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+.message__author {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.my__message-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+
+.my__message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.my__message__bubble {
+  font-size: 19px;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  padding: 10px;
+  background: var(--yellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+}
+
+.my__message__time {
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
 }
