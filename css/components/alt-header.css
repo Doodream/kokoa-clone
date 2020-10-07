@@ -9,6 +9,7 @@
 .alt-header__title {
   font-weight: 600;
   font-size: 30px;
+  margin: 0px;
 }
 
 .alt-header__column:nth-child(1) {
@@ -17,4 +18,8 @@
 
 .alt-header__column:nth-child(3) {
   margin-left: auto;
+}
+
+.alt-header__column a {
+  margin-right: 10px;
 }
