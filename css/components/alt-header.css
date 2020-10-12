@@ -3,11 +3,14 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
-  margin-top: 10px;
   justify-content: center;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  top: 20.38px;
+  z-index: 0;
+  background-color: white;
+  padding-top: 20px;
 }
 
 .alt-header__column {

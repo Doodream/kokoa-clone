@@ -31,3 +31,32 @@ body {
 .link {
   text-decoration: none;
 }
+
+@keyframes hideSplashScreen {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  will-change: opacity;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  z-index: 2;
+}
+
+.splash-screen i {
+  font-size: 132px;
+  color: #3c1e1e;
+}
